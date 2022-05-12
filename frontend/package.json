@@ -13,7 +13,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node ./index.js",
     "COMMENT": "CHANGE THE ABOVE LINE TO 'react-scripts start' IF IT ISNT WORKING!!! FRICK THAT FRICKING YOUTUBER IDIOT", 
     "build": "react-scripts build",
     "test": "react-scripts test",
