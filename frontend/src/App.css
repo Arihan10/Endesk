@@ -1,0 +1,127 @@
+.first {
+  margin-top: 85px;
+}
+
+.navbar-brand {
+  padding-left: 16px;
+}
+
+.card {
+  margin-top: 16px;
+  transition: all 0.3s;
+}
+
+.card:hover {
+  background-color: whitesmoke;
+  /* font-size: 17px; */
+  transform: scale(1.1); 
+  box-shadow: 0px 0px 50px 3px grey;
+}
+
+.submit-form {
+  margin-top: 170px;
+  /*text-align: center;*/
+}
+
+.form-group {
+  padding-top: 16px;
+}
+
+.btn-success {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 24px;
+}
+
+label {
+  padding-bottom: 8px;
+}
+
+.form-control {
+  
+}
+
+label {
+  font-size: 20px;
+}
+
+h1.jobListing {
+  text-align: center;
+}
+
+/*
+.typeSearch {
+  text-align: center;
+  border-color: #6C757D;
+  display: inline-block;
+  width: 20% !important;
+}
+*/
+
+.typeSearch {
+  box-shadow: 0px 0px 5px 0.5px rgb(228, 228, 228);
+}
+
+.typeButton {
+  margin-left: 8px;
+  background-color: white;
+  display: inline-block;
+}
+
+.row {
+  
+}
+
+.spacer {
+  height: 16px;
+}
+
+.specialBtn {
+  transition: all 0.5s;
+  width: 98%;
+}
+
+.nameButton {
+  margin-left: 8px;
+  background-color: white;
+}
+
+.nameSearch {
+  box-shadow: 0px 0px 5px 0.5px rgb(228, 228, 228);
+  background-color: white;
+}
+
+html, body {
+  background-color: whitesmoke;
+}
+
+.typeSection {
+  margin-left: 35%;
+  width: 33%;
+}
+
+/*
+.nav-items-special {
+  text-align: right;
+  margin-right: 0px;
+  color: red;
+  display: inline-flex;
+}
+*/
+
+.navbar {
+  box-shadow: 1px 0px 10px 1px grey;
+}
+
+.loginItem {
+  padding-right: 8px;
+}
+
+.btn-warning {
+  transition: all 0.5s;
+}
+
+.btn-warning:hover {
+  background-color: #007BFF; 
+  color: white;
+}
