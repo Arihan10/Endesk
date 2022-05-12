@@ -13,8 +13,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "COMMENT": "CHANGE THE BELOW LINE TO 'react-scripts start' IF IT ISNT WORKING!!! FRICK THAT FRICKING YOUTUBER IDIOT", 
     "start": "node index.js",
+    "COMMENT": "CHANGE THE ABOVE LINE TO 'react-scripts start' IF IT ISNT WORKING!!! FRICK THAT FRICKING YOUTUBER IDIOT", 
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
