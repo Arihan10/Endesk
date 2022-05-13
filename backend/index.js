@@ -26,7 +26,7 @@ MongoClient.connect(
     }
 )
 .catch(err => {
-    console.error(err.stack)
+    console.error("index.js error: " + err.stack)
     process.exit(1)
 })
 .then(async client => {
