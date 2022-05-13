@@ -51,7 +51,7 @@ export default class UsersController {
             let id = req.params.id || {}
             let user = await UsersDAO.getUserById(id)
             if (!user) {
-                res.status(404).json({ error: "Not found" })
+                res.status(404).json({ error: "Not found - apiGetUserByID, users controller js" })
                 return
             }
             res.json(user)
