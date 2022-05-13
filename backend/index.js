@@ -16,8 +16,6 @@ if (process.env.NODE_ENV === "production") {
     })
 }
 
-asdasdasadads
-
 MongoClient.connect(
     //process.env.USERS_DB_URI,
     "mongodb+srv://Arihan10:Ariaarav1@cluster0.ke9k6.mongodb.net/test_users?retryWrites=true&w=majority",
