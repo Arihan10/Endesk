@@ -8,6 +8,6 @@ app.use(cors())
 app.use(express.json())
 
 app.use("/api/v1/users", users)
-app.use("*", (req, res) => res.status(404).json({ error: `not found - server.js - ${res.status}`}))
+app.use("*", (req, res) => res.status(404).json({ error: `not found - server.js`}))
 
 export default app
