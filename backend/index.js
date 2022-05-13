@@ -10,7 +10,7 @@ const MongoClient = mongodb.MongoClient
 const port = process.env.PORT || 8000
 
 if (process.env.NODE_ENV === "production") {
-    app.use(express.static('./frontend/build'))
+    app.use(express.static('./build'))
     app.get('*', (req, res) => {
         req.sendFile(path.resolve(__dirname, '..', 'frontend', 'build', 'index.html')); 
     })
