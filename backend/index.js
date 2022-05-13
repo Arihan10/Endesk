@@ -10,14 +10,15 @@ const MongoClient = mongodb.MongoClient
 const port = process.env.PORT || 8000
 
 if (process.env.NODE_ENV === "production") {
-    app.use(express.static('./build'))
+    app.use(express.static('./frontend/build'))
     app.get('*', (req, res) => {
         req.sendFile(path.resolve(__dirname, '..', 'frontend', 'build', 'index.html')); 
     })
 }
 
 MongoClient.connect(
-    process.env.USERS_DB_URI,
+    //process.env.USERS_DB_URI,
+    "mongodb+srv://Arihan10:Ariaarav1@cluster0.ke9k6.mongodb.net/test_users?retryWrites=true&w=majority", 
     {
         maxPoolSize: 50,
         wtimeoutMS: 2500, 
