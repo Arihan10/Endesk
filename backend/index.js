@@ -7,7 +7,7 @@ import express from "express"
 dotenv.config()
 const MongoClient = mongodb.MongoClient
 
-const port = process.env.PORT || 8000
+const port = process.env.PORT || 80
 
 if (process.env.NODE_ENV === "production") {
     app.use(express.static('./frontend/build'))
