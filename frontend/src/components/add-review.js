@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import UserDataService from "../services/user"
-import { Link } from "react-router-dom"
+import { Link, Redirect } from "react-router-dom"
 
 const AddReview = props => {
     let initialReviewState = ""; 
@@ -79,6 +79,7 @@ const AddReview = props => {
             ) : (
                 <div>
                     Please log in. 
+                    <Redirect to='/login'  />
                 </div>
             )}
         </div>

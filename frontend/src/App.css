@@ -8,14 +8,15 @@
 
 .card {
   margin-top: 16px;
-  transition: all 0.3s;
+  transition: all 0.25s;
 }
 
 .card:hover {
   background-color: whitesmoke;
   /* font-size: 17px; */
-  transform: scale(1.05) translate(0px, -10px);
+  transform: scale(1.0) translate(0px, -15px);
   box-shadow: 0px 0px 50px 3px grey;
+  border: 1px solid rgb(75, 75, 75);
 }
 
 .submit-form {
@@ -118,10 +119,13 @@ html, body {
 }
 
 .btn-warning {
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 
 .btn-warning:hover {
-  background-color: #007BFF; 
-  color: white;
+  /*background-color: #007BFF;
+  color: white;*/
+  background-color: whitesmoke;
+  color: black;
+  border: 1px solid black;
 }

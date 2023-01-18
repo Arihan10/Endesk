@@ -20,9 +20,10 @@ const Login = props => {
 
     return (
         <div className="submit-form first">
+            <h1 className="jobListing"><b>Login</b></h1>
             <div>
                 <div className="form-group">
-                    <label htmlFor="user">Username</label>
+                    <label htmlFor="user"><b>Username</b></label>
                     <input
                         type="text"
                         className="form-control"
@@ -34,7 +35,7 @@ const Login = props => {
                 </div>
 
                 <div className="form-group">
-                    <label htmlFor="id">UID</label>
+                    <label htmlFor="id"><b>UID</b></label>
                     <input
                         type="text"
                         className="form-control"
@@ -45,7 +46,7 @@ const Login = props => {
                     />
                 </div>
 
-                <button onClick={login} className="btn btn-success">
+                <button onClick={login} className="btn btn-success btn-warning">
                     Login
                 </button>
             </div>
